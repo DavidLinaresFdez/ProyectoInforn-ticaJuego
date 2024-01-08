@@ -1,0 +1,31 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 541619579964517,
+					"parameters": {
+						"object": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite",
+					"sid": 977610515250376,
+					"behaviorType": "DesplazarHasta",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 402955876238200
+		}
+	],
+	"sid": 408473340487302
+}
